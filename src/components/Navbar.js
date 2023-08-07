@@ -11,7 +11,7 @@ const Navbar = (props) => {
     const [navbarOpen, setNavbarOpen] = useState(false);
 
 
-  return (
+  return (<>
     <div id="header" className='flex justify-between items-center w-11/12 max-w-[1160px] py-4 mx-auto'>
 
         <Link to="/"> 
@@ -61,6 +61,15 @@ const Navbar = (props) => {
 
     </div>
 
+
+
+    <div>
+        
+
+    </div>
+
+
+</>
   )
 }
 
