@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-image: url("/skymain.jpeg"); /*Replace "sitebg.jpg" with your actual image filename and path */
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1300px;
+  width: 100%;
+  margin: auto;
+  padding: 0 20px;
+}
+
+section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 60px;
+  line-height: 70px;
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center the cards horizontally */
+}
+
+.card {
+  flex: 0 0 calc(33.33% - 20px);
+  max-width: calc(33.33% - 20px);
+  background-color: rgba(255, 255, 255, 0.3); /* Transparent white background */
+  backdrop-filter: blur(5px); /* Frosted effect */
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px; /* Add some margin between the cards */
+  transition: 0.3s;
+  border: 2px solid transparent;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Add this line to center the contents vertically */
+  justify-content: flex-start;
+  margin-bottom: 30px;
+}
+.card p {
+  text-align: center; /* Center the text within the paragraph */
+  margin-top: 10px;
+}
+
+.card:hover {
+  border-color: #c89404;
+  transform: translateY(-20px); /* Move the card up 10px on hover */
+}
+
+.btn {
+  border: none;
+  outline: none;
+  background-color: #1d39c4;
+  color: #fff;
+  border-radius: 10px;
+  max-width: 120px;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  border: 1px solid #1d39c4;
+  margin: auto;
+}
+
+.btn:hover {
+  background: transparent;
+  color: #1d39c4;
+}
+
+@media (max-width: 969px) {
+  section {
+    padding: 20px 0px;
+  }
+  h1 {
+    font-size: 30px;
+    line-height: 40px;
+    
+  }
+  .card {
+    flex: 0 0 calc(50% - 20px);
+    max-width: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 600px) {
+  .card {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+
+
