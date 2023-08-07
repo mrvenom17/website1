@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/website/static/css/main.c64bda50.css",
+    "main.js": "/website/static/js/main.b2dec423.js",
+    "static/media/bgwallpaper.jpg": "/website/static/media/bgwallpaper.5135a62081e12fb99d8c.jpg",
+    "static/media/signup.png": "/website/static/media/signup.b431d919de01b6515dd6.png",
+    "static/media/cybercelllogoo.png": "/website/static/media/cybercelllogoo.262eb4602effe1e474ab.png",
+    "index.html": "/website/index.html",
+    "main.c64bda50.css.map": "/website/static/css/main.c64bda50.css.map",
+    "main.b2dec423.js.map": "/website/static/js/main.b2dec423.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c64bda50.css",
+    "static/js/main.b2dec423.js"
+  ]
+}
