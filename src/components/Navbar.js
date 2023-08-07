@@ -11,7 +11,30 @@ const Navbar = (props) => {
     const [navbarOpen, setNavbarOpen] = useState(false);
 
 
-  return (<>
+  return (<> 
+  
+  
+    {/* ***************** Hero section start ************* */}
+    <div className="box">
+        <input type="checkbox" name="readmore" id="readmore"/>
+        <div className="content">
+            <div className="des">
+            <span>W</span>elcome to <span>CyberCell</span> GU , where we ignite Cybersecurity Awareness and Innovation. Join us in safeguarding the digital realm through cutting-edge events and initiatives. Unveil the enigma, empower change makers, and collaborate to break barriers.
+           Our tribe of cybersecurity enthusiasts, hackers, and tech visionaries is on a mission to disrupt the disruptors. From immersive workshops to boundary-pushing hackathons, CyberCell is your launchpad for groundbreaking innovation.
+           Our diverse team of dreamers, thinkers, and doers is united by a singular purpose – to make the world better through knowledge. Join us today!
+            </div>
+            <div className="button">
+                <label htmlFor="readmore"
+                    data-more="READ MORE"
+                    data-less="READ LESS"
+                ></label>
+            </div>
+        </div>
+    </div>
+
+
+
+    
     <div id="header" className='flex justify-between items-center w-11/12 max-w-[1160px] py-4 mx-auto'>
 
         <Link to="/"> 
@@ -60,13 +83,19 @@ const Navbar = (props) => {
       </div>
 
     </div>
+       {/* ***************************Navbar end************************ */}
 
 
 
-    <div>
-        
 
-    </div>
+  
+
+
+
+
+
+
+
 
 
 </>
